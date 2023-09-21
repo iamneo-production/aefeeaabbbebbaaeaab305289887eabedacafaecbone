@@ -10,6 +10,7 @@ public class Customer {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "billId")
     bill Bill;
+    
     public int getCustomerId() {
         return customerId;
     }
