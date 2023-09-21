@@ -1,5 +1,7 @@
 package com.examly.springapp.models;
+@Entity
 public class Bill {
+    @Id
     private int billId;
     private int total;
     public Bill(int billId, int total) {

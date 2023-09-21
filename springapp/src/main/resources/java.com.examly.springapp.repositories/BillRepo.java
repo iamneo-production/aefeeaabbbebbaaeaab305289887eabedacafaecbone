@@ -1,6 +1,6 @@
 package com.examly.springapp.repositories;
-public class BillRepo {
+public class BillRepo extends JpaRepository<Bill, Integer> {
     
 
-    
+
 }

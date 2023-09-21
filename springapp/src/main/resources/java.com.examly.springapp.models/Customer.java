@@ -1,5 +1,7 @@
 package com.examly.springapp.models;
-class Customer {
+@Entity
+public class Customer {
+    @Id
     private int customerId;    
     private String customerNmame;
     private int age;
