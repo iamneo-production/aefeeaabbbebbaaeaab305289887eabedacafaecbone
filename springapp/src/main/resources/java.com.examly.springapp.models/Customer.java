@@ -8,7 +8,7 @@ public class Customer {
     private long mobile;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "billId", referencedColumnName = "billId")
+    @JoinColumn(name = "billId")
     bill Bill;
     public int getCustomerId() {
         return customerId;
