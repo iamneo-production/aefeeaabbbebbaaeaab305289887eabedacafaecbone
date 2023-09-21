@@ -6,6 +6,9 @@ public class Customer {
     private String customerNmame;
     private int age;
     private long mobile;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "billId", referencedColumnName = "billId")
     bill Bill;
     public int getCustomerId() {
         return customerId;
