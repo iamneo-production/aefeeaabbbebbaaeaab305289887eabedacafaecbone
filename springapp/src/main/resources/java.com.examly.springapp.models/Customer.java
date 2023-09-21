@@ -1,5 +1,8 @@
 package com.examly.springapp.models;
-public class Customer {    
-   int customerId;
-   
+class Customer {
+    private int customerId;
+    private String customerNmame;
+    private int age;
+    private long mobile;
+    bill Bill;
 }
